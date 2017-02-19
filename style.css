@@ -1,0 +1,90 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color:#efefef;
+  font-family:sans-serif;
+  color:#333;
+}
+
+.wrapper
+{
+  display:block;
+  width:80%;
+  margin:0 auto;
+}
+
+.mag_title
+{
+  width:100%;
+  margin:24.5% 0; /* 25 - footer margin */
+  text-align:center;
+}
+
+.mag_title h1
+{
+  font-size:3em;
+}
+.mag_title footer
+{
+  font-size:1.5em;
+  margin:0.5% 0;
+}
+
+.section {
+  display: inline-block;
+  width:29%;
+  margin:0% 2% 5% 2%;
+  float:left;
+}
+
+.section h1 {
+  font-size:1.5em;
+  margin:2% 0;
+  text-align:center;
+}
+
+.section article {
+  font-size:1.1em;
+  margin:3% 0;
+  text-align:justify;
+}
+
+.section footer {
+  text-align:right;
+  color:#777;
+  font-style:italic;
+  margin:3% 0;
+}
+
+.section .button
+{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.button
+{
+  display:block;
+  border:1px solid #333;
+  margin:3% 0;
+  width:20%;
+  text-align:center;
+  padding:1.5% 4%;
+  color:#333;
+  font-size:1.1em;
+  text-decoration:none;
+}
+
+.button:hover
+{
+  text-decoration:underline;
+}
+
+.clear
+{
+  clear:both;
+}
