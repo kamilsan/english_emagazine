@@ -6,7 +6,7 @@
 
 body {
   background-color:#efefef;
-  font-family:sans-serif;
+  font-family:Open Sans;
   color:#333;
 }
 
@@ -26,7 +26,8 @@ body {
 
 .mag_title h1
 {
-  font-size:3em;
+  font-family: Indie Flower;
+  font-size:4em;
 }
 .mag_title footer
 {
@@ -42,7 +43,8 @@ body {
 }
 
 .section h1 {
-  font-size:1.5em;
+  font-family: Indie Flower;
+  font-size:2em;
   margin:2% 0;
   text-align:center;
 }
