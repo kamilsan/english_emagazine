@@ -19,14 +19,17 @@ body {
 
 .mag_title
 {
-  width:100%;
-  margin:24.5% 0; /* 25 - footer margin */
+  width:98%;
+  margin-bottom:10%; /* 25 - footer margin */
+  padding:5% 1%;
   text-align:center;
+  background-color:#12847b; /* #8a436a #12847b #6b2b84  #9b2562 */
+  color:#fff;
 }
 
 .mag_title h1
 {
-  font-family:Indie Flower;
+  font-family:Indie Flower; /* Amatic SC; Shadows Into Light; Dancing Script */
   font-size:4em;
 }
 .mag_title footer
@@ -38,7 +41,7 @@ body {
 .section {
   display:inline-block;
   width:28%;
-  margin:0% 2.5% 5% 2.5%;
+  margin:2% 2.5% 2% 2.5%;
   text-align:center;
   float:left;
 }
@@ -97,6 +100,17 @@ body {
     width:45%;
     margin:0% 2.5% 5% 2.5%;
   }
+  .mag_title h1
+  {
+    font-size:2.8em;
+  }
+  .mag_title footer
+  {
+    font-size:1.3em;
+  }
+  .section h1 {
+    font-size:1.6em;
+  }
 }
 
 @media screen and (max-width: 820px)
@@ -104,5 +118,16 @@ body {
   .section {
     width:100%;
     margin:0 5%;
+  }
+  .mag_title h1
+  {
+    font-size:2.5em;
+  }
+  .mag_title footer
+  {
+    font-size:1.2em;
+  }
+  .section h1 {
+    font-size:1.4em;
   }
 }
