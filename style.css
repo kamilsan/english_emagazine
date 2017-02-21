@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color:#efefef;
+  background-color:#e6e6e6;
   font-family:Open Sans;
   color:#333;
 }
@@ -20,7 +20,7 @@ body {
 .mag_title
 {
   width:98%;
-  margin-bottom:10%; /* 25 - footer margin */
+  margin-bottom:10%;
   padding:5% 1%;
   text-align:center;
   background-color:#12847b; /* #8a436a #12847b #6b2b84  #9b2562 */
@@ -74,19 +74,22 @@ body {
 .button
 {
   display:inline-block;
-  border:1px solid #333;
   margin:3% 0;
   min-width:60px;
   text-align:center;
   padding:1.5% 4%;
-  color:#333;
+  color:#fff;
+  background-color:#12847b;
   font-size:1.1em;
   text-decoration:none;
+  transition:background 200ms, padding 200ms;
 }
 
 .button:hover
 {
-  text-decoration:underline;
+  background-color:#1aafa4;
+  padding-left:6%;
+  padding-right:6%;
 }
 
 .clear
@@ -102,7 +105,7 @@ body {
   }
   .mag_title h1
   {
-    font-size:2.8em;
+    font-size:2.5em;
   }
   .mag_title footer
   {
@@ -117,11 +120,11 @@ body {
 {
   .section {
     width:100%;
-    margin:0 5%;
+    margin:0 0;
   }
   .mag_title h1
   {
-    font-size:2.5em;
+    font-size:2em;
   }
   .mag_title footer
   {
