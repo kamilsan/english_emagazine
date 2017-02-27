@@ -10,17 +10,10 @@ body {
   color:#333;
 }
 
-.wrapper
-{
-  display:block;
-  width:80%;
-  margin:0 auto;
-}
-
 .mag_title
 {
   width:98%;
-  margin-bottom:10%;
+  margin-bottom:6%;
   padding:5% 1%;
   text-align:center;
   background-color:#12847b; /* #8a436a #12847b #6b2b84  #9b2562 */
@@ -38,9 +31,34 @@ body {
   margin:0.5% 0;
 }
 
+.wrapper
+{
+  display:block;
+  width:80%;
+  margin:0 auto;
+}
+
+.intro {
+  margin-bottom:2%;
+}
+.intro h1 {
+  text-align:center;
+  margin:1% 0;
+}
+.intro article {
+  text-align:justify;
+  font-size:1.1em;
+}
+.intro footer {
+  text-align:right;
+  color:#777;
+  font-style:italic;
+  margin:3% 0;
+}
+
 .section {
   display:inline-block;
-  width:28%;
+  width:45%;
   margin:2% 2.5% 2% 2.5%;
   text-align:center;
   float:left;
@@ -100,7 +118,6 @@ body {
 @media screen and (max-width: 1200px)
 {
   .section {
-    width:45%;
     margin:0% 2.5% 5% 2.5%;
   }
   .mag_title h1
