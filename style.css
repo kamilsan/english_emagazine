@@ -39,15 +39,14 @@ body {
 }
 
 .intro {
+  text-align:center;
   margin-bottom:2%;
 }
 .intro h1 {
   /*color:#10306b;*/
-  text-align:center;
   margin:1% 0;
 }
 .intro article {
-  text-align:justify;
   font-size:1.1em;
 }
 .intro footer {
