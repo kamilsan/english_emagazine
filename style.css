@@ -42,6 +42,7 @@ body {
   margin-bottom:2%;
 }
 .intro h1 {
+  /*color:#10306b;*/
   text-align:center;
   margin:1% 0;
 }
@@ -55,7 +56,16 @@ body {
   font-style:italic;
   margin:3% 0;
 }
-
+.intro p {
+  margin:2% 0;
+}
+#enjoy {
+  text-align:center;
+  font-family:Indie Flower;
+  color:#10306b;
+  font-size:2em;
+  margin:3% 0;
+}
 .section {
   display:inline-block;
   width:45%;
@@ -68,6 +78,7 @@ body {
   font-family:Indie Flower;
   font-size:1.8em;
   margin:2% 0;
+  color:#0c1f42;
 }
 
 .section article {
@@ -106,8 +117,8 @@ body {
 .button:hover
 {
   background-color:#1aafa4;
-  padding-left:6%;
-  padding-right:6%;
+  padding-left:5%;
+  padding-right:5%;
 }
 
 .clear
