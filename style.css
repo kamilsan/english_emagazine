@@ -124,6 +124,65 @@ body {
 {
   clear:both;
 }
+#main_page_ref
+{
+  color:#fff;
+  text-decoration:none;
+  transition:color 200ms;
+}
+span.article_info
+{
+  color:#777;
+  font-style:italic;
+}
+article.text
+{
+  margin:5% 0;
+  font-size:1.1em;
+  text-align:justify;
+}
+article.text h1
+{
+  font-size:2em;
+  font-family:Indie Flower;
+  text-align:left;
+}
+article.text p
+{
+  margin:2% 0;
+}
+article.text img
+{
+  display:block;
+  margin:2% auto;
+  max-width:100%;
+  height:auto;
+}
+article.text a
+{
+  color:#333;
+}
+article.text ol,ul
+{
+  padding-left:10%;
+}
+blockquote
+{
+  display:block;
+  margin:2% auto;
+  width:80%;
+  background-color:#dadada;
+  border-left:15px solid #12847b;
+  padding:2% 4% 2% 4%;
+  font-style:italic;
+}
+blockquote footer
+{
+  color:#777;
+  text-align:right;
+  font-style:normal;
+  font-size:0.9em;
+}
 
 @media screen and (max-width: 1200px)
 {
