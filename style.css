@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color:#e6e6e6;
+  background-color:#eaeaea;
   font-family:Open Sans;
   color:#333;
 }
@@ -16,13 +16,18 @@ body {
   margin-bottom:6%;
   padding:5% 1%;
   text-align:center;
-  background-color:#12847b; /* #8a436a #12847b #6b2b84  #9b2562 */
   color:#fff;
+  background:-webkit-linear-gradient(90deg, #00665E, #149187, #00665E);
+  background:-moz-linear-gradient(90deg, #00665E, #149187, #00665E);
+  background:linear-gradient(90deg, #00665E, #149187, #00665E);
+  -webkit-box-shadow:0px 1px 10px #777;
+  -moz-box-shadow:0px 1px 10px #777;
+  box-shadow:0px 1px 10px #777;
 }
 
 .mag_title h1
 {
-  font-family:Indie Flower; /* Amatic SC; Shadows Into Light; Dancing Script */
+  font-family:Shadows Into Light;
   font-size:4em;
 }
 .mag_title footer
@@ -43,7 +48,6 @@ body {
   margin-bottom:2%;
 }
 .intro h1 {
-  /*color:#10306b;*/
   margin:1% 0;
 }
 .intro article {
@@ -60,7 +64,7 @@ body {
 }
 #enjoy {
   text-align:center;
-  font-family:Indie Flower;
+  font-family:Shadows Into Light;
   color:#10306b;
   font-size:2em;
   margin:3% 0;
@@ -74,7 +78,7 @@ body {
 }
 
 .section h1 {
-  font-family:Indie Flower;
+  font-family:Shadows Into Light;
   font-size:1.8em;
   margin:2% 0;
   color:#0c1f42;
@@ -107,7 +111,7 @@ body {
   text-align:center;
   padding:1.5% 4%;
   color:#fff;
-  background-color:#12847b;
+  background-color:#149187;
   font-size:1.1em;
   text-decoration:none;
   transition:background 200ms, padding 200ms;
@@ -172,7 +176,7 @@ blockquote
   margin:2% auto;
   width:80%;
   background-color:#dadada;
-  border-left:15px solid #12847b;
+  border-left:15px solid #149187;
   padding:2% 4% 2% 4%;
   font-style:italic;
 }
