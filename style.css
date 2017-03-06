@@ -76,31 +76,22 @@ body {
   text-align:center;
   float:left;
 }
-
 .section h1 {
   font-family:Shadows Into Light;
   font-size:1.8em;
   margin:2% 0;
   color:#0c1f42;
 }
-
 .section article {
   font-size:1.1em;
   margin:3% 0;
   text-align:justify;
 }
-
 .section footer {
   text-align:right;
   color:#777;
   font-style:italic;
   margin:3% 0;
-}
-
-.section .button
-{
-  margin-left:auto;
-  margin-right:auto;
 }
 
 .button
@@ -116,7 +107,6 @@ body {
   text-decoration:none;
   transition:background 200ms, padding 200ms;
 }
-
 .button:hover
 {
   background-color:#1aafa4;
@@ -128,6 +118,7 @@ body {
 {
   clear:both;
 }
+
 #main_page_ref
 {
   color:#fff;
@@ -158,7 +149,7 @@ article.text p
 article.text img
 {
   display:block;
-  margin:2% auto;
+  margin:0 auto;
   max-width:100%;
   height:auto;
 }
@@ -169,6 +160,17 @@ article.text a
 article.text ol,ul
 {
   padding-left:10%;
+}
+article figure
+{
+  margin:2% auto;
+}
+article figcaption
+{
+  color:#777;
+  font-style:italic;
+  font-size:0.9em;
+  text-align:center;
 }
 blockquote
 {
