@@ -146,13 +146,6 @@ article.text p
 {
   margin:2% 0;
 }
-article.text img
-{
-  display:block;
-  margin:0 auto;
-  max-width:100%;
-  height:auto;
-}
 article.text a
 {
   color:#333;
@@ -161,9 +154,16 @@ article.text ol,ul
 {
   padding-left:10%;
 }
+article.text img
+{
+  display:block;
+  margin:2% auto 0 auto;
+  max-width:100%;
+  height:auto;
+}
 article figure
 {
-  margin:2% auto;
+  margin:0 auto 2% auto;
 }
 article figcaption
 {
