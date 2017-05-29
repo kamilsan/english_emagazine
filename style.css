@@ -69,6 +69,31 @@ body {
   font-size:2em;
   margin:3% 0;
 }
+
+nav {
+  margin-bottom:6%;
+}
+nav span {
+  display:inline-block;
+  font-style:italic;
+}
+nav span.unactive {
+  visibility:hidden;
+}
+.nav_prev {
+  float:left;
+}
+.nav_next {
+  float:right;
+}
+
+a {
+  color:#333;
+}
+a:hover {
+  color:#149187;
+}
+
 .section {
   display:inline-block;
   width:45%;
@@ -109,6 +134,7 @@ body {
 }
 .button:hover
 {
+  color:#fff;
   background-color:#1aafa4;
   padding-left:5%;
   padding-right:5%;
@@ -145,10 +171,6 @@ article.text h1
 article.text p
 {
   margin:2% 0;
-}
-article.text a
-{
-  color:#333;
 }
 article.text ol,ul
 {
