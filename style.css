@@ -70,6 +70,10 @@ body {
   margin:3% 0;
 }
 
+article, .mag_title footer {
+  line-height:1.6;
+}
+
 nav {
   margin-bottom:6%;
 }
@@ -130,14 +134,20 @@ a:hover {
   background-color:#149187;
   font-size:1.1em;
   text-decoration:none;
-  transition:background 200ms, padding 200ms;
+  transition:background 200ms, padding 200ms, box-shadow 200ms;
+  -webkit-box-shadow:0px 1px 10px #777;
+  -moz-box-shadow:0px 1px 10px #777;
+  box-shadow:0px 1px 10px #777;
 }
 .button:hover
 {
   color:#fff;
-  background-color:#1aafa4;
-  padding-left:5%;
-  padding-right:5%;
+  /*background-color:#1aafa4;*/
+  /*padding-left:5%;
+  padding-right:5%;*/
+  -webkit-box-shadow:0px 8px 15px #777;
+  -moz-box-shadow:0px 8px 15px #777;
+  box-shadow:0px 8px 15px #777;
 }
 
 .clear
